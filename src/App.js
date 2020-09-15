@@ -1,10 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import Employees from './employees.json';
 import EmployeeCard from './compenents/EmployeeCard'
-import SearchBar from './compenents/SearchBar'
 import Wrapper from './compenents/Wrapper'
 import Title from './compenents/Title'
-import DropDown from './compenents/DropDown'
+import SearchFilter from './compenents/SearchFilter'
 
 function App() {
   const [employees, setEmployees] = useState(Employees);
@@ -49,9 +48,14 @@ function App() {
 
   return (
     <>
-      <Title>Employee Directory</Title>
-      <DropDown employees={employees} onChange={handleOccupationChange} value={occupation}/><SearchBar value={search}
-        onChange={handleChange} />
+      <Title>Meet Our Employees</Title>
+      <SearchFilter 
+      employees={employees} 
+      handleOccupationChange={handleOccupationChange} 
+      occupationValue={occupation} 
+      searchValue={search} 
+      handleSearchonChange={handleChange}
+      />
     <Wrapper>
       {employeelist}
     </Wrapper>
