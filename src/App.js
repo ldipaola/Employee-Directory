@@ -18,7 +18,6 @@ function App() {
   };
   const handleOccupationChange = (event) => {
     setOccupation(event.target.value);
-    console.log("Changed");
   };
 
   const handleClick = (event) => {
@@ -56,8 +55,6 @@ function App() {
        setSortButton("Descending");
 
       }
-      console.log(sortedEmployees)
-    console.log(sortButton);
   };
 
   useEffect(() => {

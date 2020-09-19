@@ -3,10 +3,22 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+import { FaArrowDown } from 'react-icons/fa';
+import { FaArrowUp } from 'react-icons/fa';
+
 
 function SearchFilter(props) {
   const options = props.employees.map((option) => 
     <option>{option.occupation}</option>);
+
+  const arrowRender = () =>{
+      if (props.sortButtonValue === "Descending") {
+         return <FaArrowDown />
+        }
+      else if (props.sortButtonValue === "Ascending") {
+        return <FaArrowUp />
+      }
+    }
 
 
     return (
@@ -20,7 +32,7 @@ function SearchFilter(props) {
       {options}
     </Form.Control>
     </Form.Group>
-    <Button onClick={props.onClick} style={{marginLeft: "1em"}} variant="primary">{props.sortButtonValue}</Button>{' '}
+    <Button onClick={props.onClick} style={{marginLeft: "1em"}} variant="primary">{props.sortButtonValue} {arrowRender()}</Button>{' '}
     </Nav>
     <Form inline>
     <Form.Control className="mr-sm-2" type="text" placeholder="Search.." onChange={props.handleSearchonChange} value={props.value} />
