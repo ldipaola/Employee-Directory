@@ -9,7 +9,7 @@ import { FaArrowUp } from 'react-icons/fa';
 
 function SearchFilter(props) {
   const options = props.employees.map((option) => 
-    <option>{option.occupation}</option>);
+    <option>{option.title}</option>);
 
   const arrowRender = () =>{
       if (props.sortButtonValue === "Descending") {

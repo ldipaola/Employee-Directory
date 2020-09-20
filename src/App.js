@@ -69,7 +69,7 @@ function App() {
   useEffect(() => {
     setFilteredEmployees(
       employees.filter((emp) =>
-        emp.occupation.toLowerCase().includes(occupation.toLowerCase())
+        emp.title.toLowerCase().includes(occupation.toLowerCase())
       )
     );
   }, [occupation, employees]);
@@ -84,8 +84,8 @@ function App() {
       id={employee.id}
       name={employee.name}
       image={employee.image}
-      occupation={employee.occupation}
-      location={employee.location}
+      title={employee.title}
+      department={employee.department}
     />
   ));
 

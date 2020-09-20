@@ -13,10 +13,10 @@ export default function EmployeeCard(props) {
             <strong>Name:</strong> {props.name}
           </li>
           <li>
-            <strong>Occupation:</strong> {props.occupation}
+            <strong>Title:</strong> {props.title}
           </li>
           <li>
-            <strong>Address:</strong> {props.location}
+            <strong>Department:</strong> {props.department}
           </li>
         </ul>
       </div>
