@@ -13,6 +13,7 @@ function App() {
   const [sortedEmployees, setSortedEmployees] = useState([]);
   const [sortButton, setSortButton] = useState("Ascending");
 
+  console.log(employees)
   const handleChange = (event) => {
     setSearch(event.target.value);
   };

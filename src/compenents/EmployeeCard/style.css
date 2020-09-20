@@ -16,7 +16,8 @@
   background:#6CADDC;
 }
 .card > .img-container > img {
-  width: 60%
+  width: 60%;
+  height: 100%;
 }
 
 .card > .content {
@@ -45,3 +46,4 @@
 .card > .remove:hover {
   color: #d50000;
 }
+
