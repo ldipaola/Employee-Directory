@@ -8,8 +8,19 @@ import { FaArrowUp } from 'react-icons/fa';
 
 
 function SearchFilter(props) {
-  const options = props.employees.map((option) => 
-    <option>{option.title}</option>);
+  let employeeTitle = [];
+  for (const iterator of props.employees) {
+    if (employeeTitle.includes(iterator.title)){
+      continue;
+    } else {
+      employeeTitle.push(iterator.title);
+    }
+  }
+
+
+  const options = employeeTitle.map((option) => 
+    <option>{option}</option>);
+  
 
   const arrowRender = () =>{
       if (props.sortButtonValue === "Descending") {
@@ -28,7 +39,7 @@ function SearchFilter(props) {
     <Nav className="mr-auto">
       <Form.Group className="mb-0"  controlId="occupation-select">
       <Form.Control as="select" onChange={props.handleOccupationChange} value={props.occupationValue}>
-      <option value="">-- Occupation --</option>
+      <option value="">-- Title --</option>
       {options}
     </Form.Control>
     </Form.Group>
