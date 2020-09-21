@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Employee-Directory/static/css/main.77b620c8.chunk.css",
+    "main.js": "/Employee-Directory/static/js/main.7827b0b6.chunk.js",
+    "main.js.map": "/Employee-Directory/static/js/main.7827b0b6.chunk.js.map",
+    "runtime-main.js": "/Employee-Directory/static/js/runtime-main.965eecad.js",
+    "runtime-main.js.map": "/Employee-Directory/static/js/runtime-main.965eecad.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/Employee-Directory/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.0484dced.chunk.js": "/Employee-Directory/static/js/2.0484dced.chunk.js",
+    "static/js/2.0484dced.chunk.js.map": "/Employee-Directory/static/js/2.0484dced.chunk.js.map",
+    "index.html": "/Employee-Directory/index.html",
+    "precache-manifest.c4ad9f57f7c795ff7b7a47cc441b4cf0.js": "/Employee-Directory/precache-manifest.c4ad9f57f7c795ff7b7a47cc441b4cf0.js",
+    "service-worker.js": "/Employee-Directory/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/Employee-Directory/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.77b620c8.chunk.css.map": "/Employee-Directory/static/css/main.77b620c8.chunk.css.map",
+    "static/js/2.0484dced.chunk.js.LICENSE.txt": "/Employee-Directory/static/js/2.0484dced.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/Employee-Directory/static/media/annie-spratt-QckxruozjRg-unsplash.dfc83a7c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.965eecad.js",
+    "static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.0484dced.chunk.js",
+    "static/css/main.77b620c8.chunk.css",
+    "static/js/main.7827b0b6.chunk.js"
+  ]
+}
