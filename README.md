@@ -1,11 +1,10 @@
 
-  # Title
-  Employee Directory
+  # Employee Directory
 
   ## Description
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  Employee directory made using react,  app to allows a user to view infomation about employees, search by name, filter by title and order alphabetically  
+  Employee directory made using react, app to allows a user to view information about employees, search by name, filter by title and order alphabetically  
 
 
   ## Table of Contents  
@@ -13,7 +12,7 @@
   [Usage](#Usage)  
   [License](#License)  
   [Contributing](#Contributing)  
-  [Tests](#Tests)  
+  [Demo](#Demo)  
   [Questions](#Questions)  
    
 
@@ -22,16 +21,10 @@
   ## Installation
   npm i to install dependencies
 
-  ## Usage
-  
-
   ## License
   MIT
 
   ## Contributing
-  N/A
-
-  ## Tests
   N/A
 
   ## Demo
